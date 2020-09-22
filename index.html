@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <title>I AM</title>
+</head>
+<body>
+    
+    <div id="back">
+        <div id="left">
+            <div class="me">
+                <h1>Seok Ji Hoon</h1>
+                <img src="http://placehold.it/300x300/" alt="">
+                <p>email : seokjh93@naver.com</p>
+            </div>
+        </div>
+        <div id="right">
+            <div class="content">
+                <h2>I am...</h2>
+                <p>자기소개 내용... 쏼라쏼라쏼라쏼라쏼라쏠라쏼라쏼라쏼라<br>블라블랍르랍블라블랍블랍를랍를라<br>쏼라쏼라쏼라쏼라쏼라쏠라쏼라쏼라쏼라<br>블라블랍르랍블라블랍블랍를랍를라<br>쏼라쏼라쏼라쏼라쏼라쏠라쏼라쏼라쏼라<br>블라블랍르랍블라블랍블랍를랍를라<br></p>
+            </div>
+        </div>
+        <div class="music">
+            <audio src="프라이머리(Primary) - 2 - 씨스루 (Feat. 개코, Zion.T).mp3" controls autoplay loop></audio>
+        </div>
+        <div class="icon">
+            <p><i class="fas fa-music"></i></p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        (function($){
+
+            $('.icon').on('click', function(){
+                $('.music').addClass('on')
+            })
+
+            $('#left, #right').on('click', function(){
+                $('.music').removeClass('on')
+            })
+
+
+
+        }) (jQuery)
+
+
+
+    </script>
+
+</body>
+</html>

@@ -20,7 +20,7 @@ html, body {
 
 
 
-
+/* 왼쪽 내용 */
 #left {
     width: 50%; height: 100%;
     /* background: tan; */
@@ -56,7 +56,7 @@ html, body {
 }
 
 
-
+/* 오른쪽 내용 */
 #right {
     width: 50%; height: 100%;
     /* background: skyblue; */
@@ -85,15 +85,7 @@ html, body {
     width: 500px;
 }
 
-.music {
-    position: absolute; right: 210px; top: 60px;
-}
-.music audio {
-    display: none;
-}
-.music.on audio {
-    display: block;
-}
+/* 노래 아이콘 */
 .icon p {
     position: absolute; right: 150px; top: 50px;
     font-size: 50px;
@@ -102,3 +94,14 @@ html, body {
     color: skyblue;
     /* animation: music 0.5s infinite; */
 }
+
+/* 노래 */
+.music {
+    position: absolute; right: 210px; top: 60px;
+}
+/* .music audio {
+    display: none;
+}
+.music.on audio {
+    display: block;
+} */

@@ -26,13 +26,13 @@
                 <p>자기소개 내용... 쏼라쏼라쏼라쏼라쏼라쏠라쏼라쏼라쏼라<br>블라블랍르랍블라블랍블랍를랍를라<br>쏼라쏼라쏼라쏼라쏼라쏠라쏼라쏼라쏼라<br>블라블랍르랍블라블랍블랍를랍를라<br>쏼라쏼라쏼라쏼라쏼라쏠라쏼라쏼라쏼라<br>블라블랍르랍블라블랍블랍를랍를라<br></p>
             </div>
         </div>
+        <div class="icon">
+            <p><i class="fas fa-music"></i></p>
+        </div>
         <div class="music">
             <audio autoplay controls loop>
                 <source src="Primary.mp3" type="audio/mp3">
             </audio>
-        </div>
-        <div class="icon">
-            <p><i class="fas fa-music"></i></p>
         </div>
     </div>
 
@@ -42,13 +42,20 @@
 
         (function($){
 
+            $('.music').hide()
+
             $('.icon').on('click', function(){
-                $('.music').addClass('on')
+                $(this).next().slideToggle(300)
+                return false
             })
 
-            $('#left, #right').on('click', function(){
-                $('.music').removeClass('on')
-            })
+            // $('.icon').on('click', function(){
+            //     $('.music').addClass('on')
+            // })
+
+            // $('#left, #right').on('click', function(){
+            //     $('.music').removeClass('on')
+            // })
 
 
 

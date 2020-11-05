@@ -84,6 +84,10 @@ html, body {
     margin: 0px auto 30px; padding: 0px 10px;
     width: 500px;
 }
+#right .content p b {
+    color: royalblue;
+    font-size: 25px;
+}
 
 /* 노래 아이콘 */
 .icon p {
@@ -91,7 +95,7 @@ html, body {
     font-size: 50px;
     display: inline-block;
     cursor: pointer;
-    color: skyblue;
+    color: blue;
     /* animation: music 0.5s infinite; */
 }
 

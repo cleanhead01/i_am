@@ -77,16 +77,13 @@ html, body {
     padding: 100px 0px 50px;
 }
 #right .content p {
-    text-align: left; text-indent: 1em;
+    text-align: left; text-indent: 1em; 
+    text-decoration: underline; text-underline-position: under;
     font-size: 20px; font-family: KyoboHand;
     border: 2px solid #333; border-radius: 10px;
-    width: 60%; line-height: 1.8em; height: 400px;
+    width: 60%; line-height: 2em; height: 400px;
     margin: 0px auto 30px; padding: 0px 10px;
     background: #fff;
-}
-#right .content p b {
-    color: royalblue;
-    font-size: 25px;
 }
 
 /* 노래 아이콘 */
@@ -95,7 +92,7 @@ html, body {
     font-size: 50px;
     display: inline-block;
     cursor: pointer;
-    color: blue;
+    color: rgb(205,180,140);
     /* animation: music 0.5s infinite; */
 }
 

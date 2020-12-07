@@ -13,6 +13,9 @@ html, body {
     position: relative;
     height: 100%; width: 100%;
     /* clear: both; */
+    background: url(../images/iam-back.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 #back > div {
     /* float: left; */
@@ -34,7 +37,7 @@ html, body {
     display: inline-block;
     width: 100%;
     text-align: center;
-    border-right: 2px solid #ccc;
+    border-right: 2px solid #000;
     position: absolute; top: 100px; right: 0px;
     /* background: red; */
 }
@@ -77,9 +80,9 @@ html, body {
     text-align: left; text-indent: 1em;
     font-size: 20px; font-family: KyoboHand;
     border: 2px solid #333; border-radius: 10px;
-    width: 60%; line-height: 1.8em;
+    width: 60%; line-height: 1.8em; height: 400px;
     margin: 0px auto 30px; padding: 0px 10px;
-    
+    background: #fff;
 }
 #right .content p b {
     color: royalblue;
